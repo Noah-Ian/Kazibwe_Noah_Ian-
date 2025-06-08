@@ -1,5 +1,5 @@
 #a program that asks for two numbers using input 
-#and divides them. ue an infinite loop to keep asking until a valid input is provided
+#and divides them. use an infinite loop to keep asking until a valid input is provided
 
 
 while True:
@@ -10,6 +10,6 @@ while True:
      except ZeroDivisionError:
          print('cannot divide by a zero, please enter quantity that is above zero!')
      else:
-         print(str(tax))
+         print(f"tax: {tax}")
          print('Tax successfully calculated')
          break
